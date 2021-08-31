@@ -1,0 +1,125 @@
+#paragrafos{
+  color: green;
+}
+
+#principal {
+    color:rgb(255,200,10);
+}
+
+#titulo {
+    color: #0000ff;
+}
+
+.texto_cinza{
+    color: grey;
+    background-color:ivory;
+    background-position: center;
+}
+
+body{
+    background-image:url(../fundos/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#cm{
+    background-color: blue;
+    width:1cm;
+    height:1cm;
+}
+#mm{
+    background-color: red;
+    width:3mm;
+    height:3mm;
+}
+#in{
+    background-color: blue;
+    width:1in;
+    height:1in;
+
+    margin: 10px;
+}
+#px{
+    background-color: red;
+    width:10px;
+    height:10px;
+}
+#pt{
+    background-color: blue;
+    width:10pt;
+    height:10pt;
+}
+#pc{
+    background-color: red;
+    width:1pc;
+    height:1pc;
+    padding: 20px;
+}
+
+.container{
+    font-size: 20px;
+    width: 50vw;  /* vh, vmin, vmax*/
+    background-color:seagreen;
+}
+
+.inside{
+    font-size:1em;
+    width: 70%;
+    background-color: slateblue;
+
+}
+
+.borda{
+    border-width: 5px;
+    border-color: violet; /* border-botton-color, ...left..., top, rigth */
+    border-radius: 50%;
+    border-style: solid;  /* dashed, dotted, none, hidden */
+    /* ou definir border: espessura stilo cor(nessa ordem)*/
+    /*box model: interação da borda com margin, padding. E outline(que age como uma borda mas nao interage no box model)*/
+    /*o body tem o margin e padding de forma nativa*/
+    /*box-sizing*/
+}
+
+
+.quadrado{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+/*alterar textos: text-align; text-transformer; text-indent; text-decoration; letter-spacing; line-height; word-spacing; text-shadow(recebe 4 valores - deslocamento p direita, ... p baixo, raio, e a cor) */
+
+#fontes{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: justify;
+    font-variant: small-caps;
+}
+
+/*utilização de fontes customizadas (google fonts)*/
+
+/* Formatação de links - utilizando seletores(.links:link ou .links:visited).
+Pode-se aplicar o ex.: text.decoration: none, color, background, padding, boder
+border radius, etc. utilizando o ex.: .links:hover(é possível alterar a formatação
+ao passar o cursor, bem como o "active" ao invés do hover que irá modificar apenas
+ao clicar */
+
+ul{
+    list-style-type: circle;
+    /* Posso passar uma imagem com list-style-image: url("../..." */
+    margin:0;
+    padding: 0;
+}
+
+ol{
+    list-style-type: lower-alpha;
+    list-style-position: inside;  /* colocar o marcador dentro ou fora(outside) da lista */
+}
+
+li{
+    border: 1px solid
+}
+

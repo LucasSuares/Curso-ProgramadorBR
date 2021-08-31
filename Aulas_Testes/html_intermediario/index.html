@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML intermediario</title>
+</head>
+<body>
+    <!-- <form method="POST" action="https://www.youtube.com/results">
+
+        <input type="text" name="search_query">
+        <input type="submit">
+
+    </form> <br> 
+    o Método do tipo GET deixa os dados expostos no endereço (não é recomendado para senhas por exemplo)-->
+    <form method="GET" action="">
+
+        <input type="text" name="login"> <br> <br>
+        <input type="password" name="senha"> <br> <br>
+        <input type="checkbox" name="curso" value="opcao1"> HTML 5 <br><br>
+        <input type="checkbox" name="curso" value="opcao2"> CSS 3 <br><br>
+        <input type="radio" name="genero" value="m" checked> Masculino <br><br>
+        <input type="radio" name="genero" value="f"> Feminino <br><br>
+        
+        <select name="estado">
+            <option value="BA">Bahia</option>
+            <option value="SE">Sergipe</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP">São Paulo</option>
+        </select> <br><br>
+         <!-- Posso atribuir um tamanho para o select ex.: size="3". bem como a possibilidade de selecionar várias opções com o "multiple" -->
+         <textarea name="Menssagem"></textarea> <br><br>
+         <!-- Importante lembrar de colocar o "name" nas tags em que o conteúdo precisar ser enviado -->
+        <input type="reset" value="Limpar">
+        <input type="submit">
+        <!-- Aula sobre os tipos de input 07/03/21 -->
+        <!-- Para input date, number... posso passar o "max" e o "min"(nos respectivos formatos) por exemplo-->
+        <!-- No caso do input radio é importante que as opções tenham o mesmo nome, para que possa funcionar adequadamente -->
+        <!-- Com o "checked" a opção já fica selecionada previamente -->
+        <!-- posso utilizar o value para mudar o nome do botão -->
+
+    </form>
+
+    <!-- Aula sobre tags semânticas (importantes para o ranqueamento da página no google). Ex.: header(para criar o cabeçalho),
+    nav (para a navegação no cabeçalho), footer(para notas de rodapé , termos de uso), main(para o conteúdo principal da página - *somente 1
+    por página), section (para organizar as seções da página) e article(para um artigo) -->
+    
+</body>
+</html>

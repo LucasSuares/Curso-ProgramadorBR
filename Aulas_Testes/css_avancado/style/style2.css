@@ -1,0 +1,61 @@
+/* <<<<<<<<<<<<<<<<<<<<<<<<< AULA SOBRE FLEXBOX >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.container{
+    background-color:darkgrey;
+    height: 400px;
+    color: white;
+
+    display:flex;
+    /* flex-direction: row ; */
+    /* padrão do flex-direction é o row */
+    
+    /* flex-wrap:wrap; */
+    /* o "wrap" força a manutenção do tamanho dos elementos, nesse caso das divs filhos */
+    
+    /* posso utilizar o flex-flow para passar o flex-direction e o flex-wrap em uma só linha de código. Ex.: 
+    flex-flow: column wrap */
+
+    /* justify-content:space-evenly;
+    align-items:center;
+    align-content:flex-end; */
+
+/* align-items é para itens em uma única linha, vc tem uma div com 3 botões dentro, eles serão alinhados todos ao centro.
+
+já o align-content vai alinhar as linhas em si, vamos supor que o conteudo dentro da div e grande, vc tem 10 botões 
+em vez de 3 e o espaço seja reduzido então os 10 não cabem um ao lado do outro, eles se quebram em 5 e 5 formando duas linhas dentro da div, align-content vai trabalhar em cima dessas linhas.  */
+}
+
+/* o Justify-content alinha os itens na horizontal e o align-items, alinha os itens na vertical. */
+
+/* Esses abaixo são as opções possíveis:
+​
+
+justify-content: flex-start | flex-end | center | space-between 
+| space-around | space-evenly | start | end | left
+
+align-items: stretch | flex-start | flex-end | center | baseline 
+| first baseline | last baseline | start | end | self-start | self-end*/
+
+.r1{
+    order: 3;
+    flex-grow: 1;
+    background-color: red;
+}
+
+.r2{
+    order: 1;
+    flex-grow: 2;
+    background-color: blue;
+}
+
+.r3{
+    /* flex-shrink: 0; */
+    order: 2;
+    flex-grow: 3;
+    align-self: flex-end;
+    background-color: green;
+}
+
+.rect{
+    width: 200px;
+    height: 200px;
+}

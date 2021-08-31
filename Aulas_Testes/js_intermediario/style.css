@@ -1,0 +1,11 @@
+.paragrafo{
+    color:mediumvioletred;
+}
+
+#p1{
+    display: inline-block;
+    background-color: mediumaquamarine;
+    padding:1px;
+    /* margin-left: 35%; */
+    text-align: center;
+}

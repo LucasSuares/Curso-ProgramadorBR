@@ -1,0 +1,79 @@
+
+.container{
+    height: 300px;
+    color: white;
+    background-color: darkgray;
+    padding: 20px;
+    
+    display: grid;
+    /* grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto; */
+
+    /* posso passar o grid-template da seguinte forma:  em uma única linha de código (separando por uma "/" as linhas e c0lunas) */
+    /* grid-template: auto auto / auto auto auto;
+
+    row-gap: 15px;
+    column-gap: 15px; */
+
+    /* justify-items: center;
+    align-items: center; */
+
+    /* items altera a posição do elemento em relação a grid */
+
+    /* Content altera a posição e tamanho da grid em relação ao container */
+/* 
+    justify-content: space-between;
+    align-content: flex-start; */
+    
+    grid-template-areas:"a2 a2 a2 a2 a2 a2"
+                        "a4 a4 a6 a6 a6 a6"
+                        "a3 a3 a1 a1 a1 a1"
+                        "a5 a5 a5 a5 a5 a5"
+}   
+
+
+
+.r1{
+    background-color:red;
+}
+
+.r2{
+    background-color:blue;
+}
+
+.r3{
+    background-color:green;
+}
+
+/* .rect{
+    width: 100px;
+    height: 100px;
+} */
+
+.item1{
+    grid-area: a1;
+}
+
+.item2{
+    grid-area: a2;
+}
+
+.item3{
+    grid-area: a3;
+}
+
+.item4{
+    grid-area: a4;
+}
+
+.item5{
+    grid-area: a5;
+}
+
+.item6{
+    grid-area: a6;
+}
+
+
+/* última aula sobre grid-row-start, grid-row-end, grid-column-start e grid-column-end. E a possibilidade de fazer
+o mesmo efeito do grid-template-areas acima*/
